@@ -66,7 +66,7 @@ version: '3'
  ```docker-compose up -d```\
  And go to http://your_external_ip:8080
  
- ### usefull commands
+ ### useful commands
  One liner to stop / remove all of Docker containers:
  ```
  docker stop $(docker ps -a -q)
