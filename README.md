@@ -65,3 +65,10 @@ version: '3'
  After it is built run docker\
  ```docker-compose up -d```\
  And go to http://your_external_ip:8080
+ 
+ ### usefull commands
+ One liner to stop / remove all of Docker containers:
+ ```
+ docker stop $(docker ps -a -q)
+ docker rm $(docker ps -a -q)
+```
